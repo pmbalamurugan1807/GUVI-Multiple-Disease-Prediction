@@ -2,9 +2,9 @@
 
 Streamlit project to predict multiple diseases, in this app its Parkinson's, Kidney disease and Indian liver disease
 
-(Note: entire project is done in 1 python file(multiplediseaseprediction.py)
+(Note: entire project is done in 1 python file(multiplediseaseprediction.py))
 
-step 1: This involves processing of data(indian_liver_patient.csv, kidney_disease.csv and parkinsons.csv) into a format thats more easier to model for predictions which is mainly binary encoding and drop columns with only 1 value(aka those that dont contribute to the prediction analysis) and also modelling the data for predictions with randomforestclassifier on a 80/20 split(training and testing).
+step 1: This involves processing of data(indian_liver_patient.csv, kidney_disease.csv and parkinsons.csv) into a format thats more easier to model for predictions which is mainly binary encoding and drop columns with only 1 value(aka those that dont contribute to the prediction analysis at all ) and also modelling the data for predictions with randomforestclassifier on a 80/20 split( for training and testing).
 
 Step 2: Preparing a function to display sklearn metrics and confusion matrix to show how credible the model is based given data
 <img width="500" height="281" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/4b069ee0-ba1d-4ec4-b083-d059fc539beb" />
