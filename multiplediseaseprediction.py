@@ -26,12 +26,7 @@ model_parkinson.fit(X_train_p_scaled, y_train_p)
 # Kidney Disease
 
 binary_cols_kd = ['rbc','pc','pcc','ba','htn','dm','cad','appet','pe','ane']
-binary_map = {
-    'normal':1, 'abnormal':0,
-    'present':1, 'notpresent':0,
-    'yes':1, 'no':0,
-    'good':1, 'poor':0
-}
+binary_map = {'normal':1, 'abnormal':0, 'present':1, 'notpresent':0, 'yes':1, 'no':0, 'good':1, 'poor':0 }
 
 kidney_df = kidney_df.replace('?', pd.NA)
 kidney_df[binary_cols_kd] = kidney_df[binary_cols_kd].apply(lambda col: col.map(binary_map))
