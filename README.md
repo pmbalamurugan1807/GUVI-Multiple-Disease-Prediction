@@ -8,7 +8,7 @@ step 1: This involves processing of data(indian_liver_patient.csv, kidney_diseas
 
 Step 2: Preparing a function to display sklearn metrics and confusion matrix to show how credible the model is based given data and another function for the summary of given dataset 
 
-<img width="500" height="281" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/967c1d78-c328-4876-889c-6dfa415f80d5" />
+<img width="500" height="281" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/a04e1807-1b90-4792-9679-9bdac6564b83" />
 
 Step 3: Preparing the streamlit page itself with including the navigation sidebar and the disease prediction pages and each disease can be selected with the dropdown selectbox as shown below and disease prediction is dynamically shown at the bottom of the page
 
