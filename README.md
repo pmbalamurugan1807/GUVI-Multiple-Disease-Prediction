@@ -10,10 +10,11 @@ Step 2: Preparing a function to display sklearn metrics and confusion matrix to 
 
 <img width="500" height="281" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/a04e1807-1b90-4792-9679-9bdac6564b83" />
 
-Step 3: Preparing the streamlit page itself with including the navigation sidebar and the disease prediction pages and each disease can be selected with the dropdown selectbox as shown below and disease prediction is dynamically shown at the bottom of the page
+Step 3: Preparing the streamlit page itself with including the navigation sidebar and the disease prediction pages and each disease can be selected with the dropdown selectbox as shown below and a selectbox to pick a model for prediction and the final disease prediction for the model is dynamically shown at the bottom of the page
+<img width="500" height="281" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/109232e2-7088-4e26-afea-326860915703" />
+<img width="500" height="281" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/78cb1659-ca8f-472b-9017-1ef39863db9c" />
+<img width="500" height="281" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/f980d975-8008-4a67-91c1-efc192674d14" />
 
-<img width="500" height="281" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/6d3ae6fd-2a0d-4a00-a6dc-f84c07183239" />
-<img width="500" height="281" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/fac52156-2d55-4b67-b036-13cfa14d4f49" />
 
 Step 4: And finally summary tab which shows different dataset summary and the corelation heatmap for them 
 
